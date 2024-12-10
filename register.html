@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/tailwind.css">
+</head>
+<body >
+    <div id="preloader"><div class="spinner"></div></div>
+
+      <div class="alert alert-primary meg rectangle" style="display: none;  position: absolute; top: 1%; left: 40%; width: auto; height: auto;" role="alert"></div>
+
+
+   <form action="http://localhost/Booking/" method="post" class="bg-gradient-to-r from-cyan-400 to-sky-500" >
+        <div class="container form" >
+            <h1>Register traveljoy</h1><br>
+            <input type="hidden" name="register" value="1">
+    
+            <div class="name">
+                <i class="fa-solid fa-user"></i>
+                <span>Name</span>
+                <input type="text"placeholder='Enter name' name="username" >
+                <i class="fa-solid fa-user"></i>
+                <span>Email</span><br>
+                <input type="text" placeholder="youremail@gamil.com" name="email" class="inp ">
+            
+                <br>
+                <i class="fa-solid fa-lock"></i>
+                <span>Password</span><br>
+                <input type="password" name="password" placeholder="*********">
+                <br>
+            </div>
+
+            <button type="submit" class="btn btn-primary" > Register</button>
+            <br>
+
+            <span>Already have an account ? <a href="/booking"  >Login</a></span>
+        </div>
+    <!-- </form> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
